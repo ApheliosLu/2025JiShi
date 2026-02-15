@@ -1,0 +1,7 @@
+﻿  源.cpp
+D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0503计算表达式\源.cpp(26,19): warning C4244: “参数”: 从“double”转换到“char”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0503计算表达式\源.cpp(41,25): warning C4244: “参数”: 从“double”转换到“char”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0503计算表达式\源.cpp(44,25): warning C4244: “参数”: 从“double”转换到“char”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0503计算表达式\源.cpp(47,25): warning C4244: “参数”: 从“double”转换到“char”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0503计算表达式\源.cpp(50,25): warning C4244: “参数”: 从“double”转换到“char”，可能丢失数据
+  0503计算表达式.vcxproj -> D:\1\CCC\Cpp\2025JiShi\5线性数据结构\x64\Debug\0503计算表达式.exe

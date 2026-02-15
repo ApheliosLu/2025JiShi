@@ -1,0 +1,5 @@
+﻿  源.cpp
+D:\1\CCC\Cpp\2025JiShi\10图论\1008最短路径\源.cpp(64,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\10图论\1008最短路径\源.cpp(93,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\10图论\1008最短路径\源.cpp(257,17): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  1008最短路径.vcxproj -> D:\1\CCC\Cpp\2025JiShi\10图论\x64\Debug\1008最短路径.exe

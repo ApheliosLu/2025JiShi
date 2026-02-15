@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77428CE0-C49F-4359-B1DE-A0DD2F977FAA}|0406\u9996\u5B57\u6BCD\u5927\u5199\\0406\u9996\u5B57\u6BCD\u5927\u5199.vcxproj|D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0406\u9996\u5B57\u6BCD\u5927\u5199\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{77428CE0-C49F-4359-B1DE-A0DD2F977FAA}|0406\u9996\u5B57\u6BCD\u5927\u5199\\0406\u9996\u5B57\u6BCD\u5927\u5199.vcxproj|solutionrelative:0406\u9996\u5B57\u6BCD\u5927\u5199\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BCDDE9-AC2A-4179-891A-EBF3870F1726}|0405\u5355\u8BCD\u66FF\u6362\\0405\u5355\u8BCD\u66FF\u6362.vcxproj|D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0405\u5355\u8BCD\u66FF\u6362\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31BCDDE9-AC2A-4179-891A-EBF3870F1726}|0405\u5355\u8BCD\u66FF\u6362\\0405\u5355\u8BCD\u66FF\u6362.vcxproj|solutionrelative:0405\u5355\u8BCD\u66FF\u6362\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0F78CC-0D29-4DC1-A67A-D53B591BF08B}|0404skew\u6570\\0404skew\u6570.vcxproj|D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0404skew\u6570\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B0F78CC-0D29-4DC1-A67A-D53B591BF08B}|0404skew\u6570\\0404skew\u6570.vcxproj|solutionrelative:0404skew\u6570\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 217,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6E90.cpp",
+              "DocumentMoniker": "D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0406\u9996\u5B57\u6BCD\u5927\u5199\\\u6E90.cpp",
+              "RelativeDocumentMoniker": "0406\u9996\u5B57\u6BCD\u5927\u5199\\\u6E90.cpp",
+              "ToolTip": "D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0406\u9996\u5B57\u6BCD\u5927\u5199\\\u6E90.cpp",
+              "RelativeToolTip": "0406\u9996\u5B57\u6BCD\u5927\u5199\\\u6E90.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T13:01:45.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u6E90.cpp",
+              "DocumentMoniker": "D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0405\u5355\u8BCD\u66FF\u6362\\\u6E90.cpp",
+              "RelativeDocumentMoniker": "0405\u5355\u8BCD\u66FF\u6362\\\u6E90.cpp",
+              "ToolTip": "D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0405\u5355\u8BCD\u66FF\u6362\\\u6E90.cpp",
+              "RelativeToolTip": "0405\u5355\u8BCD\u66FF\u6362\\\u6E90.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T12:37:52.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u6E90.cpp",
+              "DocumentMoniker": "D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0404skew\u6570\\\u6E90.cpp",
+              "RelativeDocumentMoniker": "0404skew\u6570\\\u6E90.cpp",
+              "ToolTip": "D:\\1\\CCC\\Cpp\\2025JiShi\\4\u5B57\u7B26\u4E32\\0404skew\u6570\\\u6E90.cpp",
+              "RelativeToolTip": "0404skew\u6570\\\u6E90.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T12:32:27.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

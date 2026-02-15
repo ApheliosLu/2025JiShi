@@ -1,0 +1,25 @@
+﻿  源.cpp
+D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0500排队打饭\源.cpp(30,13): error C2672: “std::max”: 未找到匹配的重载函数
+      D:\Microsoft Visual Studio\IDE\VC\Tools\MSVC\14.42.34433\include\utility(85,26):
+      可能是“_Ty std::max(std::initializer_list<_Elem>)”
+          D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0500排队打饭\源.cpp(30,13):
+          “_Ty std::max(std::initializer_list<_Elem>)”: 应输入 1 个参数，却提供了 2 个
+      D:\Microsoft Visual Studio\IDE\VC\Tools\MSVC\14.42.34433\include\utility(82,26):
+      或    “_Ty std::max(std::initializer_list<_Elem>,_Pr)”
+          D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0500排队打饭\源.cpp(30,13):
+          “_Ty std::max(std::initializer_list<_Elem>,_Pr)”: 无法从“__int64”推导出“std::initializer_list<_Elem>”的 模板 参数
+      D:\Microsoft Visual Studio\IDE\VC\Tools\MSVC\14.42.34433\include\utility(74,6):
+      或    “const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)”
+          D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0500排队打饭\源.cpp(30,13):
+          “const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)”: 模板 参数“_Ty”不明确
+              D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0500排队打饭\源.cpp(30,13):
+              可能是“int”
+              D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0500排队打饭\源.cpp(30,13):
+              或    “__int64”
+          D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0500排队打饭\源.cpp(30,13):
+          “const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)”: 无法从“int”推导出“const _Ty &”的 模板 参数
+      D:\Microsoft Visual Studio\IDE\VC\Tools\MSVC\14.42.34433\include\utility(64,33):
+      或    “const _Ty &std::max(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)”
+          D:\1\CCC\Cpp\2025JiShi\5线性数据结构\0500排队打饭\源.cpp(30,13):
+          “const _Ty &std::max(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)”: 应输入 3 个参数，却提供了 2 个
+  

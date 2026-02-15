@@ -1,0 +1,6 @@
+﻿  源.cpp
+D:\1\CCC\Cpp\2025JiShi\2枚举与模拟-下\set\源.cpp(32,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+      D:\1\CCC\Cpp\2025JiShi\2枚举与模拟-下\set\源.cpp(32,9):
+      请考虑在格式字符串中使用“%zd”
+  
+  set.vcxproj -> D:\1\CCC\Cpp\2025JiShi\2枚举与模拟-下\x64\Debug\set.exe

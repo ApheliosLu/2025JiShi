@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\1\CCC\Cpp\2025JiShi\4字符串\0402w的密码\源.cpp(23,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\4字符串\0402w的密码\源.cpp(26,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  0402w的密码.vcxproj -> D:\1\CCC\Cpp\2025JiShi\4字符串\x64\Debug\0402w的密码.exe

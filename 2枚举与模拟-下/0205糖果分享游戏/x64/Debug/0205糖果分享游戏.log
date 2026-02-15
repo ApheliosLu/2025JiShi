@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\1\CCC\Cpp\2025JiShi\2枚举与模拟-下\0205糖果分享游戏\源.cpp(9,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\2枚举与模拟-下\0205糖果分享游戏\源.cpp(27,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  0205糖果分享游戏.vcxproj -> D:\1\CCC\Cpp\2025JiShi\2枚举与模拟-下\x64\Debug\0205糖果分享游戏.exe
