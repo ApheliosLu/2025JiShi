@@ -12,7 +12,7 @@ int main() {
 	fgets(sentence, 110, stdin);	// 读取一行到sentence
 	string word;	// 读取一个个字母
 	vector<string> words;	// 读取一整个单词 保存
-	multimap<string, int> wordToIdx;	// 
+	multimap<string, int> wordToIdx;	// 每个单词对应的下标
 	// 循环从sentence中读取单词
 	for (int i = 0; sentence[i] != '\0'; ++i) {
 		if (sentence[i] == ' ' || sentence[i] == '\n') {	// 每当读到空格就把前面的单词保存到words中

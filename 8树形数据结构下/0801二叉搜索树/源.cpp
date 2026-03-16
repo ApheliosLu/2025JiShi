@@ -78,7 +78,7 @@ int main() {
 			}
 			string inOrder2 = inOrder(proot2);
 			string preOrder2 = preOrder(proot2);
-			if (inOrder1 == inOrder1 && preOrder1 == preOrder2) {	// 对比先序和中序序列
+			if (inOrder1 == inOrder2 && preOrder1 == preOrder2) {	// 对比先序和中序序列
 				printf("YES\n");	
 			}
 			else {

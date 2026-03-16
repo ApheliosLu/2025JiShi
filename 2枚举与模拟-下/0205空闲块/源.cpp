@@ -25,14 +25,14 @@ int main() {
 		if (request == -1) {
 			break;
 		}
-		list<Block>::iterator toAlloc = freeList.end();
+		list<Block>::iterator toAlloc = freeList.end();	// 待分配位置 初始置空
 		int curLeast = 1e9 + 1;
 		for (it = freeList.begin(); it != freeList.end(); ++it) {	// 寻找合适大小的块
 			if (it->blockSize == request) {
 				toAlloc = it;
 				break;
 			}
-			else if (it->blockSize > request && it->blockSize < curLeast) {
+			else if (it->blockSize > request && it->blockSize < curLeast) {	// // 找到一个最佳适应的块
 				toAlloc = it;
 				curLeast = it->blockSize;
 			}

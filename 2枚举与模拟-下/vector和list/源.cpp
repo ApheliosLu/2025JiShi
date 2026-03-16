@@ -16,7 +16,7 @@ int main() {
 	//vector<double> vec2;
 	//vector<MyType> vec3;
 	//vector< vector<int> > vec4;	// 动态数组的动态数组 二维数组
-	//vector<int> arr[10];	// 动态数组的静态数组，静态数组内每个元素都是动态数组；图算法：邻接表
+	//vector<int> arr[10];	// 存储了十个动态数组的静态数组，静态数组内每个元素都是动态数组；图算法：邻接表
 
 	//vector<int> vec2(100);	// 一开始就有100个元素，相当于初始化时申请了100个int的内存
 

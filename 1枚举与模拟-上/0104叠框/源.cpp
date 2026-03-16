@@ -11,7 +11,12 @@ int main() {
 	// %c 不忽略空格
 	char pattern[100][100] = { 0 };
 	while (scanf("%d %c %c", &n, &in, &out) != EOF) {
-		int layer;	// 层级 0 -> n/2
+		int layer;	// 层级 0 -> n/2	
+		// 中心点坐标为 (n/2, n/2)
+		// 第 layer 层（0为最内层），
+		// 该层矩形的左上角坐标为(n / 2 - layer, n / 2 - layer)，
+		// 右下角坐标为(n / 2 + layer, n / 2 + layer)。
+		// 即矩形覆盖从第 n / 2 - layer 行到第 n / 2 + layer 行，从第 n / 2 - layer 列到第 n / 2 + layer 列的区域。
 		memset(pattern, 0,sizeof(pattern));
 
 		char current = in;	//  当前层级的花色

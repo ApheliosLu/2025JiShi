@@ -24,13 +24,13 @@ void RightRotate(string &str,vector<int> &vec,int offset) {
 		offset = offset % vec.size();
 	}
 	for (int i = vec.size() - offset; i < vec.size(); ++i) {
-		tmp.push_back(str[vec[i]]);
+		tmp.push_back(str[vec[i]]);	// 先把后面的暂存
 	}
 	for (int i = vec.size() - offset - 1; i >= 0; --i) {
-		str[vec[i + offset]] = str[vec[i]];
+		str[vec[i + offset]] = str[vec[i]];	// 前面的往后走
 	}
 	for (int i = 0; i < tmp.size(); ++i) {
-		str[vec[i]] = tmp[i];
+		str[vec[i]] = tmp[i];	// 把后面暂存的放前面
 	}
 }
 int main() {

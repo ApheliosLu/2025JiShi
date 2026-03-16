@@ -25,6 +25,7 @@ int main() {
 			}
 			++i;
 		}
+		// 	得到第 final_level 层上该子树的最左节点 left_side 和最右节点 right_side。
 		int left_side = m;
 		int right_side = m;
 		for (i = begin_level; i < final_level; ++i) {

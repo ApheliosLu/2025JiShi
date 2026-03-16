@@ -1,16 +1,15 @@
-#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 #include <iostream>
-#include <string>
 #include <map>
 using namespace std;
-
 int main() {
 	// This is An Pencil Case
-	char arr[200] = { 0 };
-	fgets(arr, 200, stdin);
+	char arr[2000] = { 0 };
+	// fgets(arr, 2000, stdin); // 等价于下一行
+	cin.getline(arr, sizeof(arr));   // sizeof(arr) 为 2000
 	int i = 0;
 	int alphaCount = 0;
-	bool isSpace=true;
+	bool isSpace = true;
 	int wordCount = 0;
 	map<char, int> alphaMap;
 	while (true) {
@@ -26,6 +25,7 @@ int main() {
 				++wordCount;
 			}
 			if (arr[i] >= 'A' && arr[i] <= 'Z') {
+				// ASCII
 				arr[i] += 32;
 			}
 			++alphaMap[arr[i]];
@@ -33,6 +33,7 @@ int main() {
 		}
 		++i;
 	}
+
 	printf("%d\n", alphaCount);
 	printf("%d\n", wordCount);
 	map<char, int>::iterator it;
@@ -42,6 +43,7 @@ int main() {
 			maxTimes = it->second;
 		}
 	}
+
 	for (it = alphaMap.begin(); it != alphaMap.end(); ++it) {
 		if (it->second == maxTimes) {
 			printf("%c ", it->first);
@@ -50,7 +52,5 @@ int main() {
 	printf("\n");
 	printf("%d\n", maxTimes);
 
-	cin.getline(arr, 200);
-	cout << arr << endl;
 	return 0;
 }

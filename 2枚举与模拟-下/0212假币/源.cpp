@@ -8,8 +8,8 @@ using namespace std;
 int main() {
     char set1[10], set2[10], resultArr[10];
     map<char, int> light;   // 可能是轻的硬币
-    map<char, int> equal;   // 可能是重的硬币
-    map<char, int> heavy;   // 一定是真币（因为在天平平衡时出现）
+    map<char, int> equal;    // 一定是真币（因为在天平平衡时出现）
+    map<char, int> heavy;  // 可能是重的硬币
     for (int i = 0; i < 3; ++i) {
         scanf("%s%s%s", set1, set2, resultArr);
         string result = resultArr;  

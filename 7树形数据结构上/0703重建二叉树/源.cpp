@@ -34,6 +34,7 @@ void PostOrder(TreeNode* proot) {
 	}
 }
 int main() {
+	//unique_ptr<int> uptr(new int(10));
 	char PreOrder[30];
 	char InOrder[30];
 	while (scanf("%s%s", PreOrder, InOrder) != EOF) {

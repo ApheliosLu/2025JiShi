@@ -13,11 +13,11 @@ int main() {
 
     while (wscanf(L"%ls", str) != EOF) {
         int N = wcslen(str);  // 宽字符长度
-        int n1, n2, n3;
+        int n1, n2, n3; // n1为行，n2为列，n3=n1为U型右边的高度
 
         // 枚举算出 n1、n2、n3 的合理值
         for (n2 = 3; n2 <= N; ++n2) {
-            if ((N + 2 - n2) % 2 == 0) {
+            if ((N + 2 - n2) % 2 == 0) {    // 两列的长度是偶数
                 n1 = (N + 2 - n2) / 2;
                 if (n1 <= n2) {
                     n3 = n1;

@@ -2,8 +2,8 @@
 using namespace std;
 
 int Reverse(int n) {
-	int reverse = 0;
-	int remain;
+	int reverse = 0;	// 保存反序数
+	int remain;	// 余数
 	while (true) {
 		remain = n % 10;
 		n = n / 10;

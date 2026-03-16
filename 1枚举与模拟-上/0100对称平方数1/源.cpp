@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<iostream>
 using namespace std;
 
 int Reverse(int n) {
@@ -15,7 +16,7 @@ int Reverse(int n) {
 int main() {
 	for (int n = 0; n <= 256; ++ n) {
 		if (n * n == Reverse(n * n)) {
-			printf("%d\n", n);
+			cout << n << endl;
 		}
 	}
 	return	0;

@@ -30,7 +30,7 @@ int main() {
 		for (int i = 0; i < tree[current].size(); ++i) {
 			int child = tree[current][i];
 			if (distance[child] != -1) {
-				continue;	// 不是孩子
+				continue;	// 不是孩子 说明该节点已经被访问过（已经计算过距离）
 			}
 			toVisit.push(child);	// 是孩子
 			distance[child] = distance[current] + 1;

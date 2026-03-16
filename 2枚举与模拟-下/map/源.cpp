@@ -63,6 +63,6 @@ int main() {
 		printf("key = %c, value = %d\n", it->first, it->second);
 	}
 
-
+	auto pair3 = make_pair(42, "hello");
 	return 0;
 }
