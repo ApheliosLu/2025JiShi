@@ -15,7 +15,7 @@ void DFSFindMinDiff(vector<int> &arr,int pos,int sa) {
 	
 	// arr[pos] 放入a集合
 	int newdiff;	// 记录当前差值
-	if (2 * (sa + arr[pos]) - sum > 0) {
+	if (2 * (sa + arr[pos]) - sum > 0) {	// 新的 A 和为 sa + arr[pos]，B 和为 sum - (sa + arr[pos])
 		newdiff = 2 * (sa + arr[pos]) - sum;
 	}
 	else {

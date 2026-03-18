@@ -21,7 +21,7 @@ int main() {
 		dp[0] = 0;
 		for (int i = 0; i < n; ++i) {
 			for (int j = m; j >= weight[i]; --j) {
-				dp[j] = min(dp[j], dp[j - weight[i]] + 1);
+				dp[j] = min(dp[j], dp[j - weight[i]] + 1);	// dp[j] 表示凑成总重量恰好为 j 所需的最少物品个数
 			}
 		}
 		if (dp[m] == INF) {

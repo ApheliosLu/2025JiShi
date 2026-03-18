@@ -4,7 +4,7 @@
 using namespace std;
 
 int father[1000];
-// i 数组下标是集合数据编号    father[i] 保存集合数据父亲的编号
+// i/数组下标是集合数据编号    father[i] 保存集合数据父亲的编号
 // 根i father[i]和i相同
 
 void InitDisjointSet(int n) {	// 初始化

@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\1\CCC\Cpp\2025JiShi\11动态规划\1102最长公共子串\源.cpp(14,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\1\CCC\Cpp\2025JiShi\11动态规划\1102最长公共子串\源.cpp(15,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  1102最长公共子串.vcxproj -> D:\1\CCC\Cpp\2025JiShi\11动态规划\x64\Debug\1102最长公共子串.exe

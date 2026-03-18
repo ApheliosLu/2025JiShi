@@ -13,9 +13,9 @@ int main() {
 		}
 		while (u>0) {
 			binVec.push_back(u % 2);
-			u /= 2;
+			u /= 2;	// 除二取整
 		}
-		for (int i = binVec.size() - 1; i >= 0; i--) {
+		for (int i = binVec.size() - 1; i >= 0; i--) {	// 倒序输出
 			printf("%d", binVec[i]);
 		}
 		printf("\n");

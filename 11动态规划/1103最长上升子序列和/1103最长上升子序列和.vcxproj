@@ -24,6 +24,7 @@
     <ProjectGuid>{966146fb-96f0-4c30-be53-db1015333131}</ProjectGuid>
     <RootNamespace>My1103最长上升子序列和</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>1103最大上升子序列和</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

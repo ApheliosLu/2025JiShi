@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\1\CCC\Cpp\2025JiShi\11动态规划\1102最大连续子序列\源.cpp(7,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  1102最大连续子序列.vcxproj -> D:\1\CCC\Cpp\2025JiShi\11动态规划\x64\Debug\1102最大连续子序列.exe

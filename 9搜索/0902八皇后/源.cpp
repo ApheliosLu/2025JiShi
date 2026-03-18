@@ -1,3 +1,4 @@
+/*
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <vector>
@@ -145,6 +146,53 @@ int main() {
 		int b;
 		scanf("%d", &b);
 		printf("%s\n", queenVecNew[b-1].c_str());
+	}
+	return 0;
+}
+*/
+
+
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+vector<string> solutions; // 存储所有92个皇后串（按字典序）
+
+// 回溯生成所有解
+void backtrack(int row, vector<int>& queens, vector<bool>& col,
+	vector<bool>& diag1, vector<bool>& diag2) {
+	if (row == 8) {
+		string s;
+		for (int q : queens) {
+			s.push_back('0' + q + 1); // 列号转换为1~8
+		}
+		solutions.push_back(s);
+		return;
+	}
+	for (int c = 0; c < 8; ++c) {
+		if (col[c] || diag1[row - c + 7] || diag2[row + c]) continue;
+		queens[row] = c;
+		col[c] = diag1[row - c + 7] = diag2[row + c] = true;
+		backtrack(row + 1, queens, col, diag1, diag2);
+		col[c] = diag1[row - c + 7] = diag2[row + c] = false;
+	}
+}
+
+int main() {
+	// 初始化并生成所有解
+	vector<int> queens(8);
+	vector<bool> col(8, false);
+	vector<bool> diag1(15, false);
+	vector<bool> diag2(15, false);
+	backtrack(0, queens, col, diag1, diag2);
+
+	int n;
+	cin >> n;
+	while (n--) {
+		int b;
+		cin >> b;
+		cout << solutions[b - 1] << endl; // 输出第b个串
 	}
 	return 0;
 }

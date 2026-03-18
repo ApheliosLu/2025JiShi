@@ -3,6 +3,15 @@
 #include <vector>
 using namespace std;
 
+int f(int n) {	// 获取斐波那契数列数列各项值
+	if (n == 0 || n == 1) {
+		return n;
+	}
+	else {
+		return f(n - 1) + f(n - 2);
+	}
+}
+
 int Fibonacci[] = {
 	1,
 	2,
@@ -43,6 +52,8 @@ int Fibonacci[] = {
 	39088169,
 	63245986,
 };
+
+
 // 生成斐波那契数列
 vector<int> generateFibonacci(int n) {
 	vector<int> fib;
@@ -65,14 +76,6 @@ vector<int> generateFibonacciSums(const vector<int>& fib) {
 	return sums;
 }
 
-int f(int n) {	// 获取斐波那契数列数列各项值
-	if (n == 0 || n == 1) {
-		return n;
-	}
-	else {
-		return f(n - 1) + f(n - 2);
-	}
-}
 int sum[] = {	// 这个数组存储了斐波那契数列的前缀和，即sum[i] = F[0] + F[1] + ... + F[i]。
 		1, // F[0]
 		3, // F[0] + F[1]

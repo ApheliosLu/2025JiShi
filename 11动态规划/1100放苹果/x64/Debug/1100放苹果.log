@@ -1,2 +1,13 @@
 ﻿  源.cpp
-  1100放苹果.vcxproj -> D:\1\CCC\Cpp\2025JiShi\11动态规划\x64\Debug\1100放苹果.exe
+D:\Microsoft Visual Studio\IDE\VC\Tools\MSVC\14.42.34433\include\xutility(5201,22): error C3863: 不可指定数组类型“int [13]”
+  (编译源文件“../1100放苹果/源.cpp”)
+      D:\Microsoft Visual Studio\IDE\VC\Tools\MSVC\14.42.34433\include\xutility(5201,22):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\1\CCC\Cpp\2025JiShi\11动态规划\1100放苹果\源.cpp(11,3):
+          查看对正在编译的函数 模板 实例化“void std::fill<_Ty(*),int>(const _FwdIt,const _FwdIt,const int &)”的引用
+          with
+          [
+              _Ty=int [13],
+              _FwdIt=int (*)[13]
+          ]
+  
